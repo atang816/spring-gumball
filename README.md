@@ -25,3 +25,4 @@
 
 - I ran into a problem where the CD workflow was not executing after I published a release. I suspect it has something to do with GKE_PROJECT and GKE_SA_KEY secrets content I added.
 - I tried referencing https://github.com/google-github-actions/setup-gcloud/blob/main/example-workflows/gke/README.md for help but no luck on getting the workflow to execute.
+- Tried manually putting in GKE_PROJECT and GKE_CLUSTER onto google.yml file but the workflow was still not executing
